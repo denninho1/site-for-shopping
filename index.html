@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK X ICON -->
+    <link rel="shortcut icon" href="./imgs/head icon.png" type="image/x-icon">
+    <!-- ---------- LINK FONT AWESOME ---------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINK CSS STYLE -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- LINK SWIPER CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- ---------- LINK BOXICONS ---------- -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet"/>
+    <title>Shopping.</title>
+  </head>
+  <body>
+    <!-- --------- HEADER --------- -->
+    <header class="header">
+      <div class="nav-header">
+        <div class="menu">
+          <i class="bx bx-menu" id="menu-header" title="Menu"></i>
+          <div class="menu-links">
+            <div class="container-menu">
+              <nav class="nav-links">
+                <a href="conheca.html">Conheça-nos</a>
+                <a href="lojas.html">Lojas</a>
+                <a href="novidades.html">Novidades</a>
+                <a href="cinemas.html">Cinemas</a>
+                <a href="gastronomnia.html">Gastronomia</a>
+                <a href="sobre.html">Sobre</a>
+              </nav>
+  
+              <div class="menu-footer">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- --------- Logo --------- -->
+        <a href="index.html" class="logo">Shopping<span>.</span></a>
+
+        <form class="search-container" action="lojas.html" method="get">
+          <div class="inputbox">
+            <i class="fas fa-times" id="close-search"></i>
+            <input type="search" id="box-search" autocomplete="off" placeholder="Procure por uma de nossas lojas" />
+          </div>
+          <label for="box-search" title="Pesquisar" id="icon-search"><i class="bx bx-search-alt-2"></i></label>
+        </form>
+      </div>
+    </header>
+
+    <!-- --------- MAIN --------- -->
+    <main class="main">
+      <div class="container-main">
+        <div class="text-main">
+          <h1>O shopping completo para</i> <br> <span class="typing"></span></h1>
+        </div>
+
+        <div class="footer-main">
+          <a href="#destaques"><i class='bx bx-chevron-down'></i></a>
+        </div>
+      </div>
+    </main>
+
+    <!-- --------- DESTAQUES --------- -->
+    <section class="destaques" id="destaques">
+      <h1>Destaques</h1>
+      <div class="container-destaques">
+        <div class="container-row-1 row">
+          <div class="container">
+            <a href="#" class="novidade">
+              <div class="img">
+                <img src="./imgs/bg1.jpg" alt="">
+                <div class="info">
+                  <h2>Moda</h2>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <button href="#" class="btn-destaque">Conferir</button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="container-row-2 row">
+          <div class="container">
+            <a href="#" class="novidade">
+              <div class="img">
+                <img src="./imgs/destaque2.jpg" alt="">
+                <div class="info">
+                  <h2>Faça suas compras</h2>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <button href="#" class="btn-destaque">Conferir</button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="container">
+            <a href="#" class="novidade">
+              <div class="img">
+                <img src="./imgs/destaque3.jpg" alt="">
+                <div class="info">
+                  <h2>Pague com Pix</h2>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                  <button href="#" class="btn-destaque">Conferir</button>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------- CINEMA --------- -->
+    <section class="cinema">
+      <div class="container-cinema swiper">
+        <h2>Cinema / <span>Em cartaz</span></h2>
+        <div class="container-cartaz swiper-wrapper">
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/homem de aço cartaz.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>Homem de aço</h3>
+              </div>
+
+              <div class="horarios">
+                <p>12:00</p>
+                <p>14:00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/homem aranha sem volta pra casa.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>Homem-Aranha: Sem volta para casa</h3>
+              </div>
+                
+              <div class="horarios">
+                <p>12:00</p>
+                <p>14:00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/A noite passada em soho.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>Noite passada em soho</h3>
+              </div>
+              
+              <div class="horarios">
+                <p>12:00</p>
+                <p>14:00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/lightyear.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>Lightyear</h3>
+              </div>
+
+              <div class="horarios">
+                <p>12:00</p>
+                <p>14:00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/venom tempo de carnificina cartaz.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>Venom: Tempo de carnaficina</h3>
+              </div>
+
+              <div class="horarios">
+                <p>15:00</p>
+                <p>17:30</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/The Batman Cartaz.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>The Batman</h3>
+              </div>
+
+              <div class="horarios">
+                <p>12:00</p>
+                <p>13:20</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/vingadores ultimato cartaz.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>Vingadores Ultimato</h3>
+              </div>
+              <div class="horarios">
+                <p>14:15</p>
+                <p>16:00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/shang chi cartaz.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>Shang Chi: A lenda dos dez anéis</h3>
+              </div>
+
+              <div class="horarios">
+                <p>16:00</p>
+                <p>17:50</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/entidade cartaz.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>A Entidade</h3>
+              </div>
+
+              <div class="horarios">
+                <p>21:00</p>
+                <p>18:00</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="container swiper-slide">
+            <a href="#" class="assistir">
+              <div class="img">
+                <img src="./imgs/cinema/invocação do mal.jpg" alt="Cartaz homem de aço">
+                <div class="play">
+                  <i class='bx bx-play'></i>
+                </div>
+              </div>
+  
+              <div class="info">
+                <h3>Invocação do Mal</h3>
+              </div>
+
+              <div class="horarios">
+                <p>20:00</p>
+                <p>22:30</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------- NEWSLATTER --------- -->
+    <section class="newslatter">
+      <div class="container-newslatter">
+        <div class="text-newslatter">
+          <h3>Cadastre seu email para receber nossas <span>novidades.</span></h3>
+        </div>
+        <form action="#" method="post" class="form-newslatter">
+          <input type="email" class="input-newslatter" placeholder="email@exemplo.com">
+          <input type="submit" value="Finalizar Cadastro">
+        </form>
+      </div>
+    </section>
+
+    <!-- --------- SERVIÇOS --------- -->
+    <section class="servicos">
+      <h1>Nossos Servicos</h1>
+      <div class="container-servicos">
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/espaço familia.svg" alt="Espaço Família">
+          </div>
+          <div class="info">
+            <h3>Espaço Família</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/Achados e perdidos.svg" alt="">
+          </div>
+          <div class="info">
+            <h3>Achados e perdidos</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/estacionamento.svg" alt="">
+          </div>
+          <div class="info">
+            <h3>Estacionamento</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/internet.svg" alt="">
+          </div>
+          <div class="info">
+            <h3>Internet Grátis</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/Guarda Volumes.svg" alt="">
+          </div>
+          <div class="info">
+            <h3>Guarda Volumes</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/cadeira de rodas.svg" alt="">
+          </div>
+          <div class="info">
+            <h3>Cadeira de Rodas</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/espaço criança.svg" alt="">
+          </div>
+          <div class="info">
+            <h3>Espaço Criança</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/gastronomia.svg" alt="">
+          </div>
+          <div class="info">
+            <h3>Gastronomia</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+
+        <div class="container">
+          <div class="img">
+            <img src="imgs/serviços/saude.svg" alt="">
+          </div>
+          <div class="info">
+            <h3>Saúde</h3>
+          </div>
+          <a href="#" class="btn">Ver Mais</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h1>Shopping.</h1>
+      <div class="container-footer">
+          <nav class="rede-sociais">
+            <a href="#"><i class='bx bxl-facebook' ></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+          </nav>
+
+          <div class="horarios">
+            <h2><i class='bx bx-time-five'></i> Horários</h2>
+            <h3>Seg à Sex</h3>
+            <p>10h às 00:00</p>
+            <h3>Dom e Sáb</h3>
+            <p>11h às 23:00</p>
+            <address class="endereco"><i class='bx bx-map'></i> Rua, Lorem Ipsum, 22, Lorem - Recife/PE</address>
+          </div>
+
+          <div class="contato">
+            <h2><i class='bx bx-message-rounded-dots'></i> Contato</h2>
+            <h3><i class='bx bx-phone-call'></i> Telefone</h3>
+            <p>(81)98761-5748</p>
+            <h3><i class='bx bxl-whatsapp'></i> WhatsApp</h3>
+            <p>(81)98761-5748</p>
+          </div>
+
+          <div class="links">
+            <h2>Links</h2>
+            <a href="#">Instituição</a>
+            <a href="#">Novidades</a>
+            <a href="#">Conveniência</a>
+            <a href="#">Trabalhe Conosco</a>
+            <a href="#">Política e Privacidade</a>
+            <a href="#">Termos de uso</a>
+          </div>
+      </div>
+    </footer>
+
+    <section class="copyright">
+      <h3>&copy; Desenvolvido por - <a href="#">Dennis Cesar</a></h3>
+    </section>
+
+
+
+
+    <script src="js/index.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var typed = new Typed(".typing", {
+        strings: [
+            "você.", 
+            "todos."
+        ],
+        typeSpeed:60,
+        backSpeed:60,
+        loop:true,
+        showCursor: false,
+})
+
+      var swiper = new Swiper(".container-cinema", {
+        slidesPerView: 4.3,
+        spaceBetween: 15,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        
+      });
+    </script>
+  </body>
+</html>
